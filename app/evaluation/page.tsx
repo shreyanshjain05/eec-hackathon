@@ -246,7 +246,7 @@ export default function EvaluationPage() {
                 Register now to participate in the Zero Gravity Hackathon 2025 and demonstrate your innovation and
                 problem-solving abilities.
               </p>
-              <Link href="/register">
+              <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ">
                 <Button size="lg">
                   Register Your Team
                   <ArrowRight className="ml-2 h-4 w-4" />

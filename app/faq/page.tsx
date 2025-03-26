@@ -15,7 +15,7 @@ export default function FAQPage() {
                 Frequently Asked Questions
               </h1>
               <p className="max-w-[900px] text-white/90 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Find answers to common questions about the EEC Hackathon 2025
+                Find answers to common questions about the Zero Gravity Hackathon 2025
               </p>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default function FAQPage() {
               <AccordionItem value="item-1">
                 <AccordionTrigger>Who can participate in the hackathon?</AccordionTrigger>
                 <AccordionContent>
-                  The hackathon is open to all college students. Teams must consist of exactly 6 members, with at least
+                  The hackathon is open to SRM Easwari Engineering College students. Teams must consist of exactly 6 members, with at least
                   one female participant to ensure diversity. Team members can be from different departments or
                   institutions.
                 </AccordionContent>
@@ -37,7 +37,7 @@ export default function FAQPage() {
               <AccordionItem value="item-2">
                 <AccordionTrigger>Is there a registration fee?</AccordionTrigger>
                 <AccordionContent>
-                  No, participation in the EEC Hackathon 2025 is completely free of charge.
+                  No, participation in the Zero Gravity Hackathon 2025 is completely free of charge.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
@@ -50,14 +50,13 @@ export default function FAQPage() {
               <AccordionItem value="item-4">
                 <AccordionTrigger>Will accommodation be provided?</AccordionTrigger>
                 <AccordionContent>
-                  Yes, accommodation will be provided for outstation participants for the duration of the hackathon.
-                  Please indicate your accommodation needs during registration.
+                  NO, accommodation will not be provided.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
                 <AccordionTrigger>What are the prizes?</AccordionTrigger>
                 <AccordionContent>
-                  The hackathon offers exciting prizes for the top teams, including cash prizes, internship
+                  The hackathon offers exciting prizes for the top teams, including internship
                   opportunities, and more. Detailed prize information will be announced soon.
                 </AccordionContent>
               </AccordionItem>
@@ -93,8 +92,8 @@ export default function FAQPage() {
               <AccordionItem value="item-10">
                 <AccordionTrigger>Can I change my problem statement after registration?</AccordionTrigger>
                 <AccordionContent>
-                  Changes to problem statements can be made before the idea submission deadline. Please contact the
-                  organizing team if you need to make changes.
+                  No changes to problem statements will be entertained after registration. Please ensure you choose the
+                  correct problem statement during registration.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-11">

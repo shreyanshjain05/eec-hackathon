@@ -13,7 +13,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">EEC HACKATHON 2025</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">48 Hrs.(as subscript) of ZERO GRAVITY 2025</h1> 
                 <p className="max-w-[600px] text-white/90 md:text-xl">
                   A 48-hour coding marathon to innovate, collaborate, and solve real-world problems
                 </p>
@@ -26,24 +26,25 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Link href="/problems">
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                    View Problem Statements
-                  </Button>
+                <Button size="lg" className="bg-white text-blue-600 hover:bg-white/90">
+                  View Problem Statements
+                </Button>
+
                 </Link>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex items-center gap-2">
                   <Clock className="h-5 w-5 text-white/80" />
-                  <span className="text-white/80">April 4-6, 2025</span>
+                  <span className="text-white/80">April 4-6, 2025(increase font a size) </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="h-5 w-5 text-white/80" />
-                  <span className="text-white/80">MLCP Labs, Easwari Engineering College</span>
+                  <span className="text-white/80">MLCP Labs, Easwari Engineering College (increase font size)</span>
                 </div>
-                <div className="flex items-center gap-2">
+                {/* <div className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-white/80" />
                   <span className="text-white/80">Teams of 6 members</span>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="flex items-center justify-center">
@@ -64,9 +65,9 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the Hackathon</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the Hackathon (at center)</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                The EEC Hackathon 2025 is a 48-hour coding marathon aimed at fostering innovation, collaboration, and
+                The Zero Gravity Hackathon 2025 is a 48-hour coding marathon aimed at fostering innovation, collaboration, and
                 practical learning among students.
               </p>
             </div>
@@ -137,7 +138,7 @@ export default function Home() {
                   <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">Learning</h3>
+              <h3 className="text-xl font-bold">Add 2 more thing</h3>
               <p className="text-center text-gray-500">
                 Gain practical experience and mentorship from industry experts throughout the event.
               </p>
@@ -148,117 +149,92 @@ export default function Home() {
 
       {/* About Easwari Engineering College */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-6 lg:grid-cols-[400px_1fr] lg:gap-12 xl:grid-cols-[600px_1fr]">
-            <div className="flex items-center justify-center">
-              <Image
-                src="/placeholder.svg?height=400&width=600"
-                width={600}
-                height={400}
-                alt="Easwari Engineering College"
-                className="rounded-xl object-cover"
-              />
-            </div>
-            <div className="flex flex-col justify-center space-y-4">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  About Easwari Engineering College
-                </h2>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Easwari Engineering College, a part of SRM Group of Institutions, is committed to excellence in
-                  education, research, and innovation.
-                </p>
-              </div>
-              <ul className="grid gap-2 py-4">
-                <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 text-blue-600"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  <span>State-of-the-art facilities including MLCP Labs</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 text-blue-600"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  <span>Industry-aligned curriculum and experienced faculty</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 text-blue-600"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  <span>Strong industry connections and placement opportunities</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5 text-blue-600"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  <span>Focus on innovation and entrepreneurship</span>
-                </li>
-              </ul>
-              <div>
-                <Link href="https://srmeaswari.ac.in/" target="_blank">
-                  <Button variant="outline" className="mt-4">
-                    Visit College Website
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
+  <div className="container px-4 md:px-6">
+    <div className="grid gap-6 lg:grid-cols-[400px_1fr] lg:gap-12 xl:grid-cols-[600px_1fr]">
+      <div className="flex items-center justify-center">
+        {/* <Image
+          src="/easwari-college-image.jpg" // Update with the actual image URL
+          width={600}
+          height={400}
+          alt="Easwari Engineering College"
+          className="rounded-xl object-cover"
+        /> */}
+      </div>
+      <div className="flex flex-col justify-center space-y-4">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Easwari Engineering College (At corener) (Add image of building) (Shorten the content and in single paragrpah)
+          </h2>
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            Founded in the academic year 1996–1997, Easwari Engineering College has built a reputation for its commitment to academic excellence, holistic development, and a focus on technical innovation. With approval from the Government of Tamil Nadu and AICTE, New Delhi, the college was initially affiliated with the University of Madras and has been affiliated with Anna University Chennai since 2002. At Easwari, we foster a learning environment that emphasizes continuous development, enabling students to achieve academic success and grow personally and professionally.
+          </p>
         </div>
-      </section>
+        <div className="space-y-4">
+          <h3 className="text-2xl font-bold text-gray-800">
+            Our Vision
+          </h3>
+          <p className="text-gray-500">
+            At Easwari Engineering College, we aim to accomplish and maintain international recognition and become a model institution for higher learning. We envision a dynamic environment that cultivates the development of student minds, advances knowledge, and promotes professional skill application to meet global demands.
+          </p>
+          <ul className="space-y-2 text-gray-500">
+            <li>Creating a pluralistic and supportive environment that empowers students, scholars, and staff to contribute to nation-building through partnerships with the community and industry.</li>
+            <li>Setting high standards of education that focus on developing intellectual strength and guiding students toward technical advancement.</li>
+            <li>Encouraging creativity, excellence, and innovation in teaching and learning.</li>
+            <li>Nurturing student`s development in mind, skills, attitude, and core competencies.</li>
+            <li>Leading in planning and resource management to enhance the quality and accessibility of technical education.</li>
+            <li>Developing graduates who are globally distinguished, committed to integrity, professionalism, and lifelong learning.</li>
+            <li>Ensuring students shine in their academic pursuits while being sensitive to the evolving needs of the industrial world.</li>
+          </ul>
+        </div>
+
+        <div className="space-y-4">
+          <h3 className="text-2xl font-bold text-gray-800">
+            Our Mission
+          </h3>
+          <p className="text-gray-500">
+            Our mission is to empower students with knowledge, skills, and a global perspective to excel in their careers and contribute to societal progress. We work to achieve this by:
+          </p>
+          <ul className="space-y-2 text-gray-500">
+            <li>Fostering strong relationships with faculty, students, and management to promote a nurturing academic environment.</li>
+            <li>Implementing total quality management to ensure student-centered teaching and learning processes.</li>
+            <li>Ensuring all students succeed in university examinations and are well-prepared for their careers.</li>
+            <li>Offering comprehensive placement support through soft skills, technical training, and domain-specific knowledge.</li>
+            <li>Enhancing leadership skills and encouraging students to become successful entrepreneurs.</li>
+            <li>Providing regular programs in personality development, entrepreneurship, ethics, and extracurricular activities.</li>
+            <li>Establishing strong collaborations with industry through MOUs to support student projects, placements, training, and knowledge transfer.</li>
+            <li>Working toward becoming a `Deemed to be University` under the UGC Act, offering career-oriented programs for self-motivated employment.</li>
+            <li>Aspiring to emerge as a globally recognized Centre of Excellence in Engineering, Technology, and Management through cutting-edge research.</li>
+          </ul>
+        </div>
+
+        <div className="space-y-2">
+          <h3 className="text-2xl font-bold text-gray-800">
+            Join Us in Our Journey of Excellence
+          </h3>
+          <p className="text-gray-500">
+            At Easwari Engineering College, we provide an environment that is conducive to learning, innovation, and personal growth. Our rigorous academic programs, state-of-the-art facilities, and a wide array of extracurricular activities aim to prepare students for success in the global job market. Join us in our mission to shape the leaders of tomorrow.
+          </p>
+        </div>
+        <div>
+          <Link href="https://srmeaswari.ac.in/" target="_blank">
+            <Button variant="outline" className="mt-4">
+              Visit College Website
+            </Button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Timeline */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Event Timeline</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Event Timeline (center align)</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Key dates and milestones for the EEC Hackathon 2025
+                Key dates and milestones for the Zero Gravity Hackathon 2025
               </p>
             </div>
           </div>
@@ -280,7 +256,7 @@ export default function Home() {
                 2
               </div>
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded-lg shadow">
-                <div className="font-bold text-blue-600">Phase 2: Idea Pitching & Refinement</div>
+                <div className="font-bold text-blue-600">Phase 2: Idea Pitching </div>
                 <div className="text-sm text-gray-500">March 25, 2025</div>
                 <div className="mt-1">
                   Top 100 teams present their ideas to a jury of industry professionals and mentors
@@ -339,7 +315,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-white/90">
                   Contact Us
                 </Button>
               </Link>

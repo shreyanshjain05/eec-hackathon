@@ -29,7 +29,7 @@ export default function ContactPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Get in Touch</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We are here to help with any questions you might have about the EEC Hackathon 2025.
+                  We are here to help with any questions you might have about the Zero Gravity Hackathon 2025.
                 </p>
               </div>
               <div className="grid gap-6">
@@ -50,14 +50,14 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-blue-600" />
                   <div>
                     <h3 className="font-bold">Email</h3>
-                    <p className="text-sm text-gray-500">hackathon2025@eec.edu.in</p>
+                    <p className="text-sm text-gray-500">iie@srmrmp.edu.in</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <Phone className="h-6 w-6 text-blue-600" />
+                  {/* <Phone className="h-6 w-6 text-blue-600" /> */}
                   <div>
-                    <h3 className="font-bold">Phone</h3>
-                    <p className="text-sm text-gray-500">+91 44 2249 0853</p>
+                    {/* <h3 className="font-bold">Phone</h3>
+                    <p className="text-sm text-gray-500">+91 44 2249 0853</p> */}
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Frequently Asked Questions (Center align)</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Find answers to common questions about the hackathon
               </p>
@@ -115,13 +115,13 @@ export default function ContactPage() {
             <div className="space-y-2">
               <h3 className="text-xl font-bold">Who can participate in the hackathon?</h3>
               <p className="text-gray-500">
-                The hackathon is open to all college students. Teams can consist of 3-4 members, and they can be from
-                the same or different institutions.
+              The hackathon is open to SRM Easwari Engineering College students. Teams must consist of exactly 6 members, with at least one female participant to ensure diversity. Team members can be from different departments or institutions.
               </p>
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">Is there a registration fee?</h3>
-              <p className="text-gray-500">No, participation in the EEC Hackathon 2025 is completely free of charge.</p>
+              <p className="text-gray-500">No, participation in the Zero Gravity Hackathon 2025 is completely free of charge.
+              </p>
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">What should I bring to the hackathon?</h3>
@@ -133,14 +133,13 @@ export default function ContactPage() {
             <div className="space-y-2">
               <h3 className="text-xl font-bold">Will accommodation be provided?</h3>
               <p className="text-gray-500">
-                Yes, accommodation will be provided for outstation participants for the duration of the hackathon.
-                Please indicate your accommodation needs during registration.
+                No, accommodation will not be provided.
               </p>
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">What are the prizes?</h3>
               <p className="text-gray-500">
-                The hackathon offers exciting prizes for the top teams, including cash prizes, internship opportunities,
+                The hackathon offers exciting prizes for the top teams,internship opportunities,
                 and more. Detailed prize information will be announced soon.
               </p>
             </div>

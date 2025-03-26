@@ -14,7 +14,7 @@ export default function EvaluationPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Evaluation Criteria</h1>
               <p className="max-w-[900px] text-white/90 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Learn how projects will be evaluated during the EEC Hackathon 2025
+                Learn how projects will be evaluated during the Zero Gravity Hackathon 2025
               </p>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function EvaluationPage() {
                 </CardContent>
               </Card>
 
-              <Card>
+              {/* <Card>
                 <CardHeader>
                   <CardTitle>Hackathon Structure</CardTitle>
                   <CardDescription>The three phases of the EEC Hackathon 2025</CardDescription>
@@ -232,7 +232,7 @@ export default function EvaluationPage() {
                     </ul>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
 
@@ -243,7 +243,7 @@ export default function EvaluationPage() {
               </div>
               <h3 className="text-xl font-bold">Ready to Showcase Your Skills?</h3>
               <p className="text-gray-500">
-                Register now to participate in the EEC Hackathon 2025 and demonstrate your innovation and
+                Register now to participate in the Zero Gravity Hackathon 2025 and demonstrate your innovation and
                 problem-solving abilities.
               </p>
               <Link href="/register">

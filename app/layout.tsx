@@ -51,7 +51,7 @@ export default function RootLayout({
                   </Link>
                 </nav>
                 <div className="hidden md:flex gap-4">
-                  <Link href="/register">
+                  <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ">
                     <Button>Register</Button>
                   </Link>
                 </div>

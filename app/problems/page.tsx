@@ -82,7 +82,7 @@ export default function ProblemsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Link href="/register" className="w-full">
+                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" className="w-full">
                   <Button className="w-full">
                     Select This Problem
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -116,7 +116,7 @@ export default function ProblemsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Link href="/register" className="w-full">
+                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" className="w-full">
                   <Button className="w-full">
                     Select This Problem
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -150,7 +150,7 @@ export default function ProblemsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Link href="/register" className="w-full">
+                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" className="w-full">
                   <Button className="w-full">
                     Select This Problem
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -184,7 +184,7 @@ export default function ProblemsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Link href="/register" className="w-full">
+                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" className="w-full">
                   <Button className="w-full">
                     Select This Problem
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -218,7 +218,7 @@ export default function ProblemsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Link href="/register" className="w-full">
+                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" className="w-full">
                   <Button className="w-full">
                     Select This Problem
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -252,7 +252,7 @@ export default function ProblemsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Link href="/register" className="w-full">
+                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" className="w-full">
                   <Button className="w-full">
                     Select This Problem
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -277,7 +277,7 @@ export default function ProblemsPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/register">
+              <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-white/90">
                   Register Now
                   <ArrowRight className="ml-2 h-4 w-4" />

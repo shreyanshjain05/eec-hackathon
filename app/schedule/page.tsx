@@ -1,6 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Calendar, Clock, MapPin } from "lucide-react"
-
+import { ArrowRight,Clock, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 

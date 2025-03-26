@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, Clock, MapPin, Users } from "lucide-react"
+import { ArrowRight, Clock, MapPin } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 

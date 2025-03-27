@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Clock, MapPin} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import EventTimeline from "@/event-timeline";
+import SponsorsMarquee from "@/sponsors-marquee";
 
 
 const Home = () => {
@@ -204,6 +205,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Sponsors Section */}
+        <section>
+          <SponsorsMarquee />
+        </section>
+
 
       {/* Timeline */}
       <section id="timeline" className="w-full py-12 md:py-24 lg:py-32 bg-white text-black">

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Clock, MapPin} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import EventTimeline from "@/event-timeline";
-
+import SponsorsSection from "@/components/sponsorSection";
 
 const Home = () => {
   return (
@@ -161,6 +161,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <SponsorsSection />
 
       {/* About Easwari Engineering College */}
       <section

@@ -10,7 +10,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "EEC Hackathon 2025",
+  title: "Zero Gravity 2025",
   description: "A 48-hour coding marathon at Easwari Engineering College",
 };
 

@@ -91,7 +91,6 @@ export default function EvaluationPage() {
     show: { y: 0, opacity: 1, transition: { type: "spring", stiffness: 300, damping: 24 } },
   }
 
-
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-slate-50 to-white overflow-hidden">
       {/* Hero section with magical elements */}
@@ -151,7 +150,7 @@ export default function EvaluationPage() {
           )}
         </div>
 
-        <div className="container px-4 md:px-6 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -253,8 +252,8 @@ export default function EvaluationPage() {
 
       {/* Main content section with scroll animations */}
       <section ref={sectionRef} className="w-full py-12 md:py-24 lg:py-32 bg-white relative">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 mx-auto">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}

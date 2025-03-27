@@ -12,8 +12,8 @@ export default function ContactPage() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Us</h1>
+            <div className="space-y-2 md:ml-7">
+              <h1 className="text-3xl text-center font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Us</h1>
               <p className="max-w-[900px] text-white/90 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Have questions about the hackathon? Get in touch with our team
               </p>
@@ -22,8 +22,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
-        <div className="container px-4 md:px-6">
+      <section className="w-full flex items-center justify-center py-12 md:py-24 lg:py-32 bg-white">
+        <div className="container flex items-center justify-center px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
@@ -101,11 +101,11 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 bg-gray-50">
+      <section className="w-full flex items-center justify-center py-12 md:py-24 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Frequently Asked Questions (Center align)</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Frequently Asked Questions</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Find answers to common questions about the hackathon
               </p>

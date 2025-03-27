@@ -232,9 +232,9 @@ const Home = () => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter drop-shadow-lg">
                 Ready to Innovate?
               </h2>
-              <p className="max-w-[900px] text-gray-200 text-base sm:text-lg md:text-xl drop-shadow-md">
+{/*               <p className="max-w-[900px] text-gray-200 text-base sm:text-lg md:text-xl drop-shadow-md">
                 Join us for 48 hours of coding, collaboration, and creativity
-              </p>
+              </p> */}
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="https://lu.ma/t1vip5g5" passHref>

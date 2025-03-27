@@ -5,19 +5,19 @@ export default function EventTimeline() {
     {
       icon: <Users className="h-5 w-5" />,
       phase: "Phase 1: Registration & PPT Submission",
-      date: "March 1 - March 20, 2025",
+      date: "March 27 - April 01, 2025",
       description: "Teams register and submit a PowerPoint presentation outlining their proposed solution",
     },
     {
       icon: <Calendar className="h-5 w-5" />,
       phase: "Phase 2: Idea Pitching",
-      date: "March 25, 2025",
+      date: "April 2 - April 3, 2025",
       description: "Top 100 teams present their ideas to a jury of industry professionals and mentors",
     },
     {
       icon: <Users className="h-5 w-5" />,
       phase: "Final Team Selection",
-      date: "March 30, 2025",
+      date: "April 03, 2025",
       description: "Final 50 teams selected for the 48-hour hackathon",
     },
     {

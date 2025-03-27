@@ -25,7 +25,7 @@ export default function RootLayout({
         {/* <ThemeProvider attribute="class" defaultTheme="light"> */}
         <div className="flex min-h-screen flex-col">
           <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-            <div className="container flex h-16 items-center justify-between">
+            <div>
               <Navbar />
             </div>
             
@@ -33,9 +33,12 @@ export default function RootLayout({
         
           <main className="flex-1">{children}</main>
           <footer className="border-t py-6 md:py-0">
-            <div className="container flex flex-col items-center justify-center gap-4 md:h-24 md:flex-col">
+            <div className="container ml-20 flex flex-col items-center justify-center gap-2 md:h-24 md:flex-col">
               <p className="text-center text-sm leading-loose text-muted-foreground">
-                © 2025 Easwari Engineering College. All rights reserved. Made by FabLab.
+                © 2025 Easwari Engineering College. All rights reserved.
+              </p>
+              <p className="text-center text-sm leading-loose text-muted-foreground">
+                Made with love by IIE Center. ❤️
               </p>
               <div className="flex gap-4">
                 <Link href="/terms" className="text-sm text-muted-foreground hover:underline underline-offset-4">

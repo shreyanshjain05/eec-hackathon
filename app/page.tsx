@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { ArrowRight, Clock, MapPin} from "lucide-react";
 import { Button } from "@/components/ui/button";
+import EventTimeline from "@/event-timeline";
 
 
 const Home = () => {
@@ -183,18 +184,7 @@ const Home = () => {
                 The college fosters a dynamic environment for learning, personal growth, and professional development.
               </p>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-xl sm:text-2xl font-bold drop-shadow-md">Our Vision</h3>
-              <p className="max-w-[600px] text-gray-400 text-base sm:text-lg md:text-xl drop-shadow-md text-justify">
-                We aim to achieve international recognition as a model institution for higher learning, cultivating student development and advancing knowledge to meet global demands.
-              </p>
-            </div>
-            <div className="space-y-4">
-              <h3 className="text-xl sm:text-2xl font-bold drop-shadow-md">Our Mission</h3>
-              <p className="max-w-[600px] text-gray-400 text-base sm:text-lg md:text-xl drop-shadow-md text-justify">
-                Our mission is to empower students with knowledge, skills, and a global perspective to excel in their careers and contribute to societal progress.
-              </p>
-            </div>
+            
             <div className="space-y-2">
               <h3 className="text-xl sm:text-2xl font-bold drop-shadow-md">Join Us in Our Journey of Excellence</h3>
               <p className="max-w-[600px] text-gray-400 text-base sm:text-lg md:text-xl drop-shadow-md text-justify">
@@ -205,7 +195,7 @@ const Home = () => {
               <Link href="https://srmeaswari.ac.in/" target="_blank">
                 <Button
                   variant="outline"
-                  className="mt-4 border-white text-black hover:bg-white hover:text-black transition-all duration-300 w-full sm:w-auto"
+                  className="mt-4 border-white text-black hover:bg-white hover:text-black transition-all duration-300 w-full sm:w-auto cursor-pointer"
                 >
                   Visit College Website
                 </Button>
@@ -217,74 +207,7 @@ const Home = () => {
 
       {/* Timeline */}
       <section id="timeline" className="w-full py-12 md:py-24 lg:py-32 bg-white text-black">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter">Event Timeline</h2>
-              <p className="max-w-[900px] text-gray-600 text-base sm:text-lg md:text-xl">
-                Key dates and milestones for the Zero Gravity Hackathon 2025
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:gap-8 mt-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                1
-              </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                <div className="font-bold text-black text-sm sm:text-base">Phase 1: Registration & PPT Submission</div>
-                <div className="text-sm text-gray-600">March 1 - March 20, 2025</div>
-                <div className="mt-1 text-gray-600 text-sm sm:text-base">
-                  Teams register and submit a PowerPoint presentation outlining their proposed solution
-                </div>
-              </div>
-            </div>
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                2
-              </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                <div className="font-bold text-black text-sm sm:text-base">Phase 2: Idea Pitching</div>
-                <div className="text-sm text-gray-600">March 25, 2025</div>
-                <div className="mt-1 text-gray-600 text-sm sm:text-base">
-                  Top 100 teams present their ideas to a jury of industry professionals and mentors
-                </div>
-              </div>
-            </div>
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                  3
-                </div>
-                <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                  <div className="font-bold text-black text-sm sm:text-base">Final Team Selection</div>
-                  <div className="text-sm text-gray-600">March 30, 2025</div>
-                  <div className="mt-1 text-gray-600 text-sm sm:text-base">Final 50 teams selected for the 48-hour hackathon</div>
-                </div>
-              </div>
-            </div>
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                4
-              </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                <div className="font-bold text-black text-sm sm:text-base">Phase 3: 48-Hour Hackathon</div>
-                <div className="text-sm text-gray-600">April 4-6, 2025</div>
-                <div className="mt-1 text-gray-600 text-sm sm:text-base">48-hour non-stop coding and development marathon at MLCP Labs</div>
-              </div>
-            </div>
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                5
-              </div>
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
-                <div className="font-bold text-black text-sm sm:text-base">Final Presentation & Awards</div>
-                <div className="text-sm text-gray-600">April 6, 2025</div>
-                <div className="mt-1 text-gray-600 text-sm sm:text-base">Final presentations, judging, and award ceremony</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <EventTimeline />
       </section>
 
       {/* CTA */}

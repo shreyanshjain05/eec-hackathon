@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export default function FAQPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -22,7 +22,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
+      <section className="w-full flex items-center justify-center py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl space-y-8">
             <Accordion type="single" collapsible className="w-full">

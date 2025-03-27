@@ -37,7 +37,7 @@ export default function ProblemsPage() {
   }, [])
 
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-slate-50 to-white overflow-hidden">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-slate-50 to-white overflow-hidden">
       {/* Magical floating particles */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
         {mounted &&
@@ -59,7 +59,7 @@ export default function ProblemsPage() {
           ))}
       </div>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700 text-white relative overflow-hidden">
+      <section className="w-full flex items-center justify-center py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700 text-white relative overflow-hidden">
         {/* Animated tech grid background */}
         <div className="absolute inset-0">
           <div
@@ -81,7 +81,7 @@ export default function ProblemsPage() {
           ></div>
         </div>
 
-        <div className="container px-4 md:px-6 relative z-10">
+        <div className="container flex items-center justify-center px-4 md:px-6 relative z-10">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 animate-fade-down">
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-sm font-medium text-white mb-4 border border-white/20">
@@ -102,7 +102,7 @@ export default function ProblemsPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-white relative">
+      <section className="w-full flex items-center justify-center py-12 md:py-24 lg:py-32 bg-white relative">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="container px-4 md:px-6 relative">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
@@ -465,7 +465,7 @@ export default function ProblemsPage() {
       </section>
 
       {/* CTA */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700 text-white relative overflow-hidden">
+      <section className="w-full flex items-center justify-center py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700 text-white relative overflow-hidden">
         {/* Animated tech grid background */}
         <div className="absolute inset-0">
           <div

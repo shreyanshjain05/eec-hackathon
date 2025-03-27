@@ -43,7 +43,7 @@ const Home = () => {
         <div className="container mx-auto px-4 md:px-6 relative z-20 h-full flex items-end justify-center">
           <div className="flex flex-col items-center text-center space-y-8 animate-delayed-fade-in">
             <h2 className="max-w-[600px] text-white text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tighter drop-shadow-2xl">
-              A 48-hour coding marathon to innovate, collaborate, and solve real-world problems
+              {/* A 48-hour coding marathon to innovate, collaborate, and solve real-world problems */}
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="https://lu.ma/t1vip5g5" passHref>
@@ -232,9 +232,9 @@ const Home = () => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter drop-shadow-lg">
                 Ready to Innovate?
               </h2>
-{/*               <p className="max-w-[900px] text-gray-200 text-base sm:text-lg md:text-xl drop-shadow-md">
+              <p className="max-w-[900px] text-gray-200 text-base sm:text-lg md:text-xl drop-shadow-md">
                 Join us for 48 hours of coding, collaboration, and creativity
-              </p> */}
+              </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="https://lu.ma/t1vip5g5" passHref>

@@ -218,7 +218,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -264,7 +264,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -310,7 +310,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -356,7 +356,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -402,7 +402,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -448,7 +448,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"

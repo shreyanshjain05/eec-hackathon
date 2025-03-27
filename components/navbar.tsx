@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link href="/contact" className="text-gray-700 hover:text-black transition-colors duration-300">
             Contact
           </Link>
-          <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ">
+          <Link href="https://lu.ma/t1vip5g5">
             <Button className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-6 py-3 rounded-lg font-medium hover:from-blue-700 hover:to-indigo-800 active:scale-95 transition-all duration-300 cursor-pointer">
               Register
             </Button>

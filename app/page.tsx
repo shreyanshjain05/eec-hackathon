@@ -183,18 +183,7 @@ const Home = () => {
                 The college fosters a dynamic environment for learning, personal growth, and professional development.
               </p>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-xl sm:text-2xl font-bold drop-shadow-md">Our Vision</h3>
-              <p className="max-w-[600px] text-gray-400 text-base sm:text-lg md:text-xl drop-shadow-md text-justify">
-                We aim to achieve international recognition as a model institution for higher learning, cultivating student development and advancing knowledge to meet global demands.
-              </p>
-            </div>
-            <div className="space-y-4">
-              <h3 className="text-xl sm:text-2xl font-bold drop-shadow-md">Our Mission</h3>
-              <p className="max-w-[600px] text-gray-400 text-base sm:text-lg md:text-xl drop-shadow-md text-justify">
-                Our mission is to empower students with knowledge, skills, and a global perspective to excel in their careers and contribute to societal progress.
-              </p>
-            </div>
+            
             <div className="space-y-2">
               <h3 className="text-xl sm:text-2xl font-bold drop-shadow-md">Join Us in Our Journey of Excellence</h3>
               <p className="max-w-[600px] text-gray-400 text-base sm:text-lg md:text-xl drop-shadow-md text-justify">
@@ -205,7 +194,7 @@ const Home = () => {
               <Link href="https://srmeaswari.ac.in/" target="_blank">
                 <Button
                   variant="outline"
-                  className="mt-4 border-white text-black hover:bg-white hover:text-black transition-all duration-300 w-full sm:w-auto"
+                  className="mt-4 border-white text-black hover:bg-white hover:text-black transition-all duration-300 w-full sm:w-auto cursor-pointer"
                 >
                   Visit College Website
                 </Button>

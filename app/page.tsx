@@ -46,7 +46,7 @@ const Home = () => {
               A 48-hour coding marathon to innovate, collaborate, and solve real-world problems
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" passHref>
+              <Link href="https://lu.ma/t1vip5g5" passHref>
                 <Button
                   className="bg-white text-black hover:bg-gray-200 transition-all duration-300 font-semibold w-full sm:w-auto text-lg py-3 px-6"
                 >
@@ -235,7 +235,7 @@ const Home = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" passHref>
+              <Link href="https://lu.ma/t1vip5g5" passHref>
                 <Button
                   size="lg"
                   className="bg-white text-black hover:bg-gray-200 transition-all duration-300 font-semibold w-full sm:w-auto"

@@ -1,9 +1,7 @@
 import type React from "react";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import { Menu } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
 // import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 // import { ThemeProvider } from "next-themes";
@@ -27,40 +25,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col">
           <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container flex h-16 items-center justify-between">
-              <Link href="/" className="flex items-center space-x-2">
-                <span className="text-xl font-bold">ZERO GRAVITY HACKATHON</span>
-              </Link>
-              <nav className="hidden md:flex gap-6">
-                <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
-                  Home
-                </Link>
-                <Link href="/problems" className="text-sm font-medium hover:underline underline-offset-4">
-                  Problem Statements
-                </Link>
-                <Link href="/schedule" className="text-sm font-medium hover:underline underline-offset-4">
-                  Schedule
-                </Link>
-                <Link href="/evaluation" className="text-sm font-medium hover:underline underline-offset-4">
-                  Evaluation Criteria
-                </Link>
-                <Link href="/faq" className="text-sm font-medium hover:underline underline-offset-4">
-                  FAQ
-                </Link>
-                <Link href="/contact" className="text-sm font-medium hover:underline underline-offset-4">
-                  Contact
-                </Link>
-              </nav>
-              <div className="hidden md:flex gap-4">
-                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ">
-                  <Button>Register</Button>
-                </Link>
-              </div>
-              <div className="md:hidden">
-                <Button variant="ghost" size="icon" className="mobile-menu-button">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Toggle menu</span>
-                </Button>
-              </div>
+              
             </div>
           </header>
           <main className="flex-1">{children}</main>

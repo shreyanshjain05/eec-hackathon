@@ -38,11 +38,17 @@ export default function Home() {
             <Link href="/" className="text-gray-300 hover:text-white transition-colors duration-300">
               Home
             </Link>
-            <Link href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">
-              About
+            <Link href="/problems" className="text-gray-300 hover:text-white transition-colors duration-300">
+              Problem Statements
             </Link>
-            <Link href="#timeline" className="text-gray-300 hover:text-white transition-colors duration-300">
-              Timeline
+            <Link href="/schedule" className="text-gray-300 hover:text-white transition-colors duration-300">
+              Check The Schedule
+            </Link>
+            <Link href="/evaluation" className="text-sm font-medium hover:underline underline-offset-4">
+              Evaluation Criteria
+            </Link>
+            <Link href="/faq" className="text-sm font-medium hover:underline underline-offset-4">
+              FAQ
             </Link>
             <Link href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">
               Contact
@@ -52,6 +58,11 @@ export default function Home() {
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-300 focus:outline-none">
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
+          </div>
+          <div className="hidden md:flex gap-4">
+            <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ">
+              <Button>Register</Button>
+            </Link>
           </div>
         </div>
         {/* Mobile Menu */}

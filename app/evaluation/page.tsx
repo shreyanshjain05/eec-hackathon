@@ -675,7 +675,7 @@ export default function EvaluationPage() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" target="_blank" rel="noopener noreferrer">
+                <Link href="https://lu.ma/t1vip5g5" target="_blank" rel="noopener noreferrer">
                   <Button
                     size="lg"
                     className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg group relative overflow-hidden"

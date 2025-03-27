@@ -218,7 +218,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -264,7 +264,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -310,7 +310,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -356,7 +356,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -402,7 +402,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -448,7 +448,7 @@ export default function ProblemsPage() {
               </CardContent>
               <CardFooter className="relative z-10">
                 <Link
-                  href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ"
+                  href="https://lu.ma/t1vip5g5"
                   className="w-full"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -505,7 +505,7 @@ export default function ProblemsPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="https://lu.ma/event/evt-UMPGVObGEy1gPwZ" target="_blank" rel="noopener noreferrer">
+              <Link href="https://lu.ma/t1vip5g5" target="_blank" rel="noopener noreferrer">
                 <Button
                   size="lg"
                   className="bg-white text-blue-600 hover:bg-white/90 hover:text-blue-700 hover:shadow-lg transition-all duration-300 group relative overflow-hidden cursor-pointer"

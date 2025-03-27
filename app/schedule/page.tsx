@@ -356,7 +356,7 @@ export default function SchedulePage() {
             </div>
 
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/register" target="_blank" rel="noopener noreferrer">
+              <Link href="https://lu.ma/t1vip5g5" target="_blank" rel="noopener noreferrer">
                 <Button className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
                   <span className="absolute top-0 left-0 w-full h-full bg-white/10 transform -skew-x-12 -translate-x-full group-hover:translate-x-[150%] transition-transform duration-1000 ease-out"></span>
                   <span className="relative z-10 flex items-center">

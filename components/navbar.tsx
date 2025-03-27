@@ -57,7 +57,7 @@ const Navbar = () => {
         scrolled ? "bg-white shadow-md" : "bg-gray-100",
       )}
     >
-      <div className="container mx-auto px-2 sm:px-4 py-2 flex items-center justify-between">
+      <div className="container mx-auto px-2 sm:px-4 py-3 md:py-2 flex items-center justify-between">
         {/* Mobile menu button - moved to the left */}
         <div className="md:hidden">
           <button
@@ -65,7 +65,7 @@ const Navbar = () => {
             className="text-gray-700 focus:outline-none p-2 rounded-md hover:bg-gray-200 transition-colors duration-300"
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >
-            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
 
@@ -190,49 +190,48 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div
         className={cn(
-          "fixed inset-0 bg-white z-40 transform transition-transform duration-300 ease-in-out md:hidden",
+          "fixed right-0 top-[50px] w-full h-auto max-h-[80vh] bg-white z-40 transform transition-transform duration-300 ease-in-out md:hidden shadow-lg rounded-bl-lg",
           isMenuOpen ? "translate-x-0" : "translate-x-full",
         )}
-        style={{ top: "60px" }}
       >
-        <div className="flex flex-col items-center space-y-6 pt-8 pb-12 px-4 h-full overflow-y-auto bg-white">
+        <div className="flex flex-col items-center space-y-2 pt-4 pb-6 px-4 overflow-y-auto bg-white">
           <Link
             href="/problems"
-            className="text-gray-700 hover:text-black transition-colors duration-300 text-lg font-medium w-full text-center py-3 border-b border-gray-100"
+            className="text-gray-700 hover:text-black transition-colors duration-300 text-base font-medium w-full text-center py-2 border-b border-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             Problems
           </Link>
           <Link
             href="/schedule"
-            className="text-gray-700 hover:text-black transition-colors duration-300 text-lg font-medium w-full text-center py-3 border-b border-gray-100"
+            className="text-gray-700 hover:text-black transition-colors duration-300 text-base font-medium w-full text-center py-2 border-b border-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             Check The Schedule
           </Link>
           <Link
             href="/evaluation"
-            className="text-gray-700 hover:text-black transition-colors duration-300 text-lg font-medium w-full text-center py-3 border-b border-gray-100"
+            className="text-gray-700 hover:text-black transition-colors duration-300 text-base font-medium w-full text-center py-2 border-b border-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             Evaluation Criteria
           </Link>
           <Link
             href="/faq"
-            className="text-gray-700 hover:text-black transition-colors duration-300 text-lg font-medium w-full text-center py-3 border-b border-gray-100"
+            className="text-gray-700 hover:text-black transition-colors duration-300 text-base font-medium w-full text-center py-2 border-b border-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             FAQ
           </Link>
           <Link
             href="/contact"
-            className="text-gray-700 hover:text-black transition-colors duration-300 text-lg font-medium w-full text-center py-3 border-b border-gray-100"
+            className="text-gray-700 hover:text-black transition-colors duration-300 text-base font-medium w-full text-center py-2 border-b border-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
             Contact
           </Link>
-          <Link href="https://lu.ma/t1vip5g5" onClick={() => setIsMenuOpen(false)} className="w-full px-4 pt-4">
-            <Button className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white w-full py-4 rounded-lg font-medium hover:from-blue-700 hover:to-indigo-800 active:scale-95 transition-all duration-300 cursor-pointer text-lg">
+          <Link href="https://lu.ma/t1vip5g5" onClick={() => setIsMenuOpen(false)} className="w-full px-4 pt-2">
+            <Button className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white w-full py-2 rounded-lg font-medium hover:from-blue-700 hover:to-indigo-800 active:scale-95 transition-all duration-300 cursor-pointer text-base">
               Register
             </Button>
           </Link>

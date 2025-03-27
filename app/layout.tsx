@@ -38,7 +38,7 @@ export default function RootLayout({
                 © 2025 Easwari Engineering College. All rights reserved.
               </p>
               <p className="text-center text-sm leading-loose text-muted-foreground">
-                Made with love by IIE Center. ❤️
+                Made with ❤️ by <Link href='https://www.instagram.com/iie_srmrmp/' target="_blank" >IIE Center</Link>.
               </p>
               <div className="flex gap-4">
                 <Link href="/terms" className="text-sm text-muted-foreground hover:underline underline-offset-4">

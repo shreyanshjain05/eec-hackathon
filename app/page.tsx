@@ -48,7 +48,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="https://lu.ma/t1vip5g5" passHref>
                 <Button
-                  className="bg-white text-black hover:bg-gray-200 transition-all duration-300 font-semibold w-full sm:w-auto text-lg py-3 px-6"
+                  className="bg-white text-black hover:bg-gray-200 transition-all duration-300 font-semibold w-full sm:w-auto text-lg py-3 px-6 cursor-pointer"
                 >
                   Register Now
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -56,7 +56,7 @@ const Home = () => {
               </Link>
               <Link href="/problems">
                 <Button
-                  className="bg-transparent border border-white text-white hover:bg-white hover:text-black transition-all duration-300 font-semibold w-full sm:w-auto text-lg py-3 px-6"
+                  className="bg-transparent border border-white text-white hover:bg-white hover:text-black transition-all duration-300 font-semibold w-full sm:w-auto text-lg py-3 px-6 cursor-pointer"
                 >
                   View Problem Statements
                 </Button>

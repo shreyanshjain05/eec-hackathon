@@ -5,7 +5,7 @@ import Link from "next/link"
 import { ArrowRight, Search, Filter } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -368,9 +368,7 @@ export default function ProblemStatementsPage() {
                   </div>
                   <CardDescription className="line-clamp-2 h-10">{problem.title}</CardDescription>
                 </CardHeader>
-                <CardContent className="relative z-10">
-                  <p className="text-sm text-gray-500 line-clamp-4 h-20">{problem.title}</p>
-                </CardContent>
+                
                 <CardFooter className="relative z-10">
                   <Link href={'https://lu.ma/t1vip5g5'} className="w-full">
                     <Button
